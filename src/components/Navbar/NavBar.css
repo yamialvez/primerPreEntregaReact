@@ -1,0 +1,110 @@
+/* GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* MENU */
+.navBarMod {
+  background-color: #c98ed8 !important;
+}
+
+.navBarMod__a a {
+  color: black;
+  margin: 0px 50px;
+}
+
+.nav-link:hover {
+  color: #5ae2e2;
+}
+
+.nav-link:focus {
+  color: pink;
+}
+
+.navBarMod__contador {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #c98ed8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0.563rem;
+  position: absolute;
+  font-size: 0.625rem;
+  right: 1.3rem;
+  top: 1.8rem;
+  font-weight: 400;
+  color: white;
+}
+
+.navBarMod__logo {
+  animation: navbar__logo-spin 4000ms ease infinite;
+  animation-timing-function: linear;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.navBarMod__carrito {
+  width: 4.7rem;
+  height: 4.7rem;
+  margin: 0px auto;
+  padding: 0.563rem;
+  position: absolute;
+  right: 0.063rem;
+  top: 0.001rem;
+}
+
+.contenedor {
+  background-image: url(../../img/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.conenedor__texto {
+  width: 40%;
+  position: absolute;
+  top: 12.5rem;
+  left: 5rem;
+  color: #c98ed8;
+  justify-content: center;
+  text-align: center;
+}
+
+.conenedor__texto h1 {
+  font-size: 3.5rem;
+  margin-bottom: 3rem;
+}
+
+.contenedor__img {
+  position: absolute;
+  max-width: 31.25rem;
+  right: 2.5rem;
+  top: 12.5rem;
+}
+
+.navBarMod__banner {
+  width: 80%;
+  border-radius: 50%;
+}
+/* FIN MENU 
+@keyframes navbar__logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+*/
